@@ -166,17 +166,7 @@ class _FlashcardHomePageState extends State<FlashcardHomePage>{
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Study with me',
-          style: TextStyle(
-            color: Colors.black,
-          ),
-        ),
-        backgroundColor: Colors.white, 
-        elevation: 0, 
-      ),
-      extendBodyBehindAppBar: true,
+      
       
       body: Container(
         decoration: BoxDecoration(
@@ -292,7 +282,7 @@ class _FlashcardHomePageState extends State<FlashcardHomePage>{
                       Text(
                         '${currentIndex + 1} / ${deck.cards.length}',
                         style: const TextStyle(
-                          color: const Color.fromARGB(255, 2, 24, 42),
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
